@@ -7,12 +7,10 @@ import torch
 import numpy as np
 import matplotlib.pyplot as plt
 from torch.utils.data import Dataset, DataLoader
-from torchvision.utils import save_image
-from torchvision import transforms, utils
-from torchvision.transforms.transforms import Normalize, ToTensor
+from torchvision import transforms
+from torchvision.transforms.transforms import Normalize
 from PIL import Image
 import datetime
-# from uuid import uuid1
 from labels import Labels
 plt.ion() # interactive mode
 """
